@@ -187,3 +187,7 @@ p {
   align-items: center;
   margin-top: 50px;
 }
+
+#movie-list .container .genre-name {
+  font-size: 30px;
+}

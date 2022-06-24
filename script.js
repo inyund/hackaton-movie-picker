@@ -189,6 +189,7 @@ function randomize(maxNumber, historyIndex) {
 //filter movie berdasarkan genre yang dipilih dan menambahkan element card movie yang sudah difilter
 let selectedGenre = ''
 function filterMovie(event, genre) {
+    document.getElementById("genre-name").innerHTML = genre;
     selectedGenre = genre
     let cardsElement = document.getElementById("cards")
     let card = ''
@@ -210,6 +211,7 @@ function filterMovie(event, genre) {
     cardsElement.innerHTML = card
 
     document.getElementById('btn-pick-movie').removeAttribute('style')
+    document.getElementById('btn-select-genre').removeAttribute('style')
 }
 
 
