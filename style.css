@@ -1,4 +1,3 @@
-/* write your code here */
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +5,9 @@
 }
 
 body {
+  background-image: linear-gradient(rgba(8, 20, 22, 0.9),rgba(8, 20, 22, 0.9)),url(https://i.redd.it/4fxxbm4opjd31.jpg);
+  background-size: cover;
   background-color: #2C394B;
-  position: absolute;
   margin: 0px;
   overflow: hidden;
   top: 0px;
@@ -16,7 +16,7 @@ body {
 }
 
 .web-title {
-  color: white;
+  color: #def2f1;
   text-align: left;
 
 }
@@ -26,8 +26,7 @@ body {
   height: 40px;
   padding: 10px 40px;
   display: flex;
-  background-color: #082032;
-
+  background-color: #2b7a76;
 }
 
 .navbar-column {
@@ -53,7 +52,7 @@ body {
 
 .navbar ul li a {
   text-decoration: none;
-  color: white;
+  color: #def2f1;
 }
 
 .navbar ul li::after {
@@ -72,6 +71,8 @@ body {
 }
 
 .container {
+  background-image: linear-gradient(rgba(8, 20, 22, 0.9),rgba(8, 20, 22, 0.9)),url(https://i.redd.it/4fxxbm4opjd31.jpg);
+  background-size: cover;
   background-color: #1e2749;
   height: 100vh;
   display: flex;
@@ -94,7 +95,7 @@ body {
 
 .card {
   width: 277px;
-  background-color: #334756;
+  background-color: #2b7a78;
   border-radius: 10px;
   margin: 0 30px;
 }
@@ -158,7 +159,7 @@ section {
 } */
 
 p {
-  color: white;
+  color: #def2f1;
   margin-top: 10vh;
   margin-left: 50vh;
   margin-right: 50vh;

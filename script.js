@@ -159,6 +159,72 @@ const movies = {
             "title": "Maze Runner: The Death Cure",
             "posterUrl": "https://i1.wp.com/teaser-trailer.com/wp-content/uploads/The-Maze-Runner-3-The-Death-Cure.jpg?ssl=1",
         },
+    ],
+    Comedy: [
+
+        {
+            id: 0,
+            "title": "The Campaign",
+            "posterUrl": "https://picfiles.alphacoders.com/355/thumb-355144.jpg",
+        },
+        {
+            id: 1,
+            "title": "Turning Red",
+            "posterUrl": "https://www.whatspaper.com/wp-content/uploads/2022/04/hd-turning-red-wallpaper-whatspaper-5.jpg",
+        },
+        {
+            id: 2,
+            "title": "The Lost City",
+            "posterUrl": "https://7wallpapers.net/wp-content/uploads/The-Lost-City-2-1619x2400.jpg",
+        },
+        {
+            id: 3,
+            "title": "The Bad Guys",
+            "posterUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/81e8eaf4-42df-45fe-8eb9-f7596ba98246/df0ekt5-005cce1b-568a-4f4e-bdc3-a4879be52c8a.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzgxZThlYWY0LTQyZGYtNDVmZS04ZWI5LWY3NTk2YmE5ODI0NlwvZGYwZWt0NS0wMDVjY2UxYi01NjhhLTRmNGUtYmRjMy1hNDg3OWJlNTJjOGEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.U-5Y35kKoLSzjlhoUWLpBQOi2fZtcA9erkGynkC-VlI",
+        },
+        {
+            id: 4,
+            "title": "Jackass Forever",
+            "posterUrl": "https://wallpapercave.com/wp/wp10569294.jpg",
+        },
+        {
+            id: 5,
+            "title": "Legally Blonde",
+            "posterUrl": "https://picfiles.alphacoders.com/106/106452.jpg",
+        },
+        
+    ],
+    Drama: [
+        {
+            id: 0,
+            "title": "Hitman: Agent Jun",
+            "posterUrl": "https://img.wallpapersafari.com/tablet/768/1024/27/1/kBcN8t.jpg",
+        },
+        {
+            id: 1,
+            "title": "Deliver Us From Evil",
+            "posterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO9tgxD8S8fpYr5n3eWcsVzyjE6SqAvBVWVQ&usqp=CAU",
+        },
+        {
+            id: 2,
+            "title": "Time To Hunt",
+            "posterUrl": "https://m.media-amazon.com/images/M/MV5BNTBkN2RlYjEtNzgxOC00MDc1LTg0MTEtZTI1ZWQ1MjhlZjYzXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_.jpg",
+        },
+        {
+            id: 3,
+            "title": "Youth of May",
+            "posterUrl": "https://i.pinimg.com/originals/75/17/10/751710f4a95fda0492ececdc39a66a75.jpg",
+        },
+        {
+            id: 4,
+            "title": "Life",
+            "posterUrl": "https://asianwiki.com/images/0/0d/Private_Lives-P1.jpg",
+        },
+        {
+            id: 5,
+            "title": "The Notebook",
+            "posterUrl": "http://nicholassparks.com/wp-content/uploads/2013/07/200406-the-notebook.jpeg?w=640",
+        },
     ]
 }
 
