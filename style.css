@@ -7,7 +7,12 @@
 
 body {
   background-color: #2C394B;
-  margin: 0;
+  position: absolute;
+  margin: 0px;
+  overflow: hidden;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
 }
 
 .web-title {

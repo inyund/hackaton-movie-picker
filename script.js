@@ -150,7 +150,6 @@ function filterMovie(event, genre) {
                 <img src="${movies[selectedGenre][randomNumber].posterUrl}">
                 <p>${movies[selectedGenre][randomNumber].title}</p>
                 <button name = 'movie-button' id='${movieId}' value='watch' onclick='pickMovie(this,${movieId})'>Watch</button>
-                <button name = 'movie-button' id='later-${movieId}' value='watch-later'>Watch Later</button>
               </div>
             </div>`
         historyIndex.push(randomNumber)
