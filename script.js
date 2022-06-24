@@ -217,9 +217,9 @@ function filterMovie(event, genre) {
 
 
 //menambahkan element untuk menyimpan movie yang dipilih
-const pickedMovieElement = document.getElementById("picked-movies")
 function pickMovie(evt, movieId) {
     document.getElementById(movieId).setAttribute('disabled', true)
+    const pickedMovieElement = document.getElementById("picked-movies")
     const movie = movies[selectedGenre][movieId]
 
     const pickedMovie = `
