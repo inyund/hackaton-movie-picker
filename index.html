@@ -11,28 +11,54 @@
 </head>
 
 <body>
-  <div class="navbar">
-    <div class="navbar-column">
-      <h1>My Film</h1>
+  <section id="home">
+    <div class="navbar">
+      <div class="navbar-column">
+        <h1 class="web-title">Film++</h1>
+      </div>
     </div>
 
-    <div class="navbar-column1">
-      <ul id="list-genre">
-    </div>
-  </div>
 
-  <section>
+    <div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+
+    <div id="awal"><img
+        src=https://dafunda.com/wp-content/uploads/2020/12/589ab7914c9a456b4c4927ee8adeb7261a7ba0d4r1-970-546v2_uhq.jpg
+        width="50%"></div>
+
+    <div class="navbar">
+      <div class="navbar-column">
+        <ul id="list-genre">
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="movie-list">
     <div class="container">
       <div class="cards" id="cards">
-
+      </div>
+      <div class="btn-pick-movie-container">
+        <a href="#picked-movie-list" style='display:none;' id="btn-pick-movie"><button>Submit</button></a>
+      </div>
+    </div>
   </section>
 
-
-  <section>
-    <div class="container">
+  <section id='picked-movie-list'>
+    <div>
+      <h1 class="picked-movie-title">Akan Ditonton</h1>
       <div id="picked-movies" class="cards">
 
       </div>
+      <div class="btn-repick-container">
+        <a href="#home" style="display:none ;" id="btn-repick-movie"><button>Pilih Film Lagi</button></a>
+      </div>
+    </div>
   </section>
   <script src="./script.js"></script>
 </body>
