@@ -51,7 +51,7 @@ const movies = {
         {
             id: 9,
             "title": "Luke Cage",
-            "posterUrl": "https://flxt.tmsimg.com/assets/p12738284_b_v13_ac.jpg",
+            "posterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzlY7kG9OGdZjYLlrktqDIgKZyzfCTIPaWlQ&usqp=CAU",
         }
 
 
@@ -74,7 +74,7 @@ const movies = {
         },
         {
             id: 3,
-            "title": "The Silence of the Lambs",
+            "title": "The Silence",
             "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ2NzkzMDI4OF5BMl5BanBnXkFtZTcwMDA0NzE1NA@@._V1_SX300.jpg"
         },
         {
@@ -85,7 +85,7 @@ const movies = {
         {
             id: 5,
             "title": "Morbius",
-            "posterUrl": "https://pict.sindonews.net/dyn/360/pena/news/2022/03/30/700/727761/review-film-morbius-vampir-menyeramkan-dengan-cgi-payah-nsn.jpg",
+            "posterUrl": "https://www.themoviedb.org/t/p/original/6JjfSchsU6daXk2AKX8EEBjO3Fm.jpg",
         },
         {
             id: 6,
@@ -105,7 +105,7 @@ const movies = {
         {
             id: 9,
             "title": "Martin Eden",
-            "posterUrl": "https://m.media-amazon.com/images/M/MV5BNTgzYTM5MjYtZjk2ZC00MTUxLWE1NTktYmVkZmIwNTZiMTNkXkEyXkFqcGdeQXVyMTA3MzQ4MTcw._V1_.jpg",
+            "posterUrl": "https://kbimages1-a.akamaihd.net/0bdabcc9-d721-408d-bbc3-2b455381738f/1200/1200/False/martin-eden-71.jpg",
         }
     ]
 }
@@ -114,7 +114,7 @@ const movies = {
 const listGenre = document.getElementById("list-genre")
 let list = ''
 for (const genre in movies) {
-    list += `<li><a href="#" onclick="filterMovie(this,'${genre}')">${genre}</a></li>`
+    list += `<li><a href="#movie-list" onclick="filterMovie(this,'${genre}')">${genre}</a></li>`
 }
 listGenre.innerHTML = list
 
@@ -141,21 +141,23 @@ function filterMovie(event, genre) {
     let card = ''
     let historyIndex = []
     for (let i = 0; i < 5; i++) {
-        let max = movies[selectedGenre].length - 1;
-        let randomNumber = randomize(max, historyIndex)
+        let maxNumber = movies[selectedGenre].length - 1;
+        let randomNumber = randomize(maxNumber, historyIndex)
         let movieId = movies[selectedGenre][randomNumber].id
         card += `
             <div class="card">
               <div class="profile">
-                <img src="${movies[selectedGenre][randomNumber].posterUrl}" height="150">
-                <p class='title'>${movies[selectedGenre][randomNumber].title}</p>
+                <img src="${movies[selectedGenre][randomNumber].posterUrl}">
+                <p>${movies[selectedGenre][randomNumber].title}</p>
                 <button name = 'movie-button' id='${movieId}' value='watch' onclick='pickMovie(this,${movieId})'>Watch</button>
-                <button name = 'movie-button' id='${movieId}-x' value='watch-later'>Watch Later</button>
+                <button name = 'movie-button' id='later-${movieId}' value='watch-later'>Watch Later</button>
               </div>
             </div>`
         historyIndex.push(randomNumber)
     }
     cardsElement.innerHTML = card
+
+    document.getElementById('btn-pick-movie').removeAttribute('style')
 }
 
 
@@ -175,6 +177,7 @@ function pickMovie(evt, movieId) {
             </div>
         `
     pickedMovieElement.innerHTML += pickedMovie
+    document.getElementById('btn-repick-movie').removeAttribute('style')
 }
 
 
