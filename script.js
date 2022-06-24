@@ -211,7 +211,7 @@ function filterMovie(event, genre) {
     }
     cardsElement.innerHTML = card
 
-    document.getElementById('btn-pick-movie').removeAttribute('style')
+
     document.getElementById('btn-select-genre').removeAttribute('style')
 }
 
@@ -233,6 +233,7 @@ function pickMovie(evt, movieId) {
         `
     pickedMovieElement.innerHTML += pickedMovie
     document.getElementById('btn-repick-movie').removeAttribute('style')
+    document.getElementById('btn-pick-movie').removeAttribute('style')
 }
 
 
