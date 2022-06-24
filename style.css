@@ -191,3 +191,9 @@ p {
 #movie-list .container .genre-name {
   font-size: 30px;
 }
+
+
+.poster {
+  height: 300px;
+  width: 260px;
+}
