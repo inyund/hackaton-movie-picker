@@ -23,62 +23,62 @@ const movies = {
         {
             id: 4,
             "title": "Luke Cage",
-            "posterUrl": "https://flxt.tmsimg.com/assets/p12738284_b_v13_ac.jpg",
+            "posterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzlY7kG9OGdZjYLlrktqDIgKZyzfCTIPaWlQ&usqp=CAU",
         },
         {
             id: 5,
-            "title": "Dark Phoenix",
-            "posterUrl": "https://bacaterus.com/wp-content/uploads/2022/01/Review-X-Men-Dark-Phoenix_.webp",
+            "title": "Ready Player One",
+            "posterUrl": "http://static1.squarespace.com/static/584b0a226a4963352938c185/t/5b748132758d464a8ddf8161/1534362176392/?format=1500w",
         },
         {
             id: 6,
-            "title": "Avengers Endgame",
-            "posterUrl": "https://i.pinimg.com/originals/83/85/98/83859852bea0341f432a15b02e1a8edc.png",
+            "title": "Pacific Rim: Uprising",
+            "posterUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1458/1458183_so.jpg",
         },
         {
             id: 7,
-            "title": "Eternals",
-            "posterUrl": "https://mmc.tirto.id/image/2019/07/22/eternals_ratio-16x9.jpg",
+            "title": "Jurassic World: Fallen Kingdom",
+            "posterUrl": "https://images-na.ssl-images-amazon.com/images/I/81BcmbLuzcL._SL1500_.jpg",
         },
         {
             id: 8,
-            "title": "Raya and the Last Dragon",
-            "posterUrl": "https://wallpapercave.com/wp/wp8000019.jpg",
+            "title": "Deadpoll 2",
+            "posterUrl": "https://www.subtitlist.com/images/148602.jpg",
         },
         {
             id: 9,
-            "title": "Ant-Man and the Wasp",
-            "posterUrl": "https://wallpapersmug.com/download/1600x900/b6cc5e/ant-man-and-the-wasp-movie-poster.jpg",
+            "title": "Avengers Infinity War",
+            "posterUrl": "https://awsimages.detik.net.id/community/media/visual/2018/03/23/9a5c831a-4a36-41fe-af32-617845000352.jpeg?w=700&q=90",
         },
         {
             id: 10,
-            "title": "Aquaman",
-            "posterUrl": "https://wallpapersmug.com/download/1600x900/3e73b2/aquaman-Jason-momoa-movie.jpg",
+            "title": "Ant-Man and the Wasp",
+            "posterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDWPj9WqE2xEvYq1HyQJHaif5qg9Jp7_2RS0i-js1tQd_kFoBczp6DVzZSd9QGfTxtSsQ&usqp=CAU",
         },
         {
             id: 11,
-            "title": "Avengers Infinity War",
-            "posterUrl": "https://wallpapersmug.com/download/1600x900/be5725/avengers-infinity-war-movie-poster-international.jpg",
+            "title": "Aquaman",
+            "posterUrl": "https://www.joblo.com/wp-content/uploads/2021/07/aquamanwaterfallposter.jpg",
         },
         {
             id: 12,
-            "title": "Deadpoll 2",
-            "posterUrl": "https://wallpapersmug.com/download/1600x900/4d9385/deadpool-2-movie-poster-minimal.jpg",
+            "title": "Raya and the Last Dragon",
+            "posterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuRwGHKjvxW9XnBOKvWZ75_r-pOB_0gKN6C8vIbWpZjaVPnPRAhtMzmwEV7jU3QTCX1RE&usqp=CAU",
         },
         {
             id: 13,
-            "title": "Jurassic World: Fallen Kingdom",
-            "posterUrl": "https://img.wallscloud.net/converted/987982823-jurassic-world-fallen-kingdom-8z9W-1024x1024-MM-100.jpg",
+            "title": "Eternals",
+            "posterUrl": "https://i0.wp.com/fontlot.com/wp-content/uploads/2020/06/Eternals-1.jpg?fit=700%2C985&ssl=1",
         },
         {
             id: 14,
-            "title": "Pacific Rim: Uprising",
-            "posterUrl": "https://wallpapersmug.com/download/1600x900/a9a9ff/4k-pacific-rim-uprising-2018-movie.jpg",
+            "title": "Avengers Endgame",
+            "posterUrl": "https://images.moviesanywhere.com/4677177f6f0595289bc3e767e7b47459/1d6c6c73-ab1e-4453-969c-6a4e965ebb37.jpg",
         },
         {
             id: 15,
-            "title": "Ready Player One",
-            "posterUrl": "https://jadwalnonton.com/data/upload/articles/2020/Ready-Player-One.jpg",
+            "title": "Dark Phoenix",
+            "posterUrl": "https://www.spettacolo.eu/wp-content/uploads/2018/09/X-Men-Dark-Phoenix-locandina-fan-made.jpg",
         },
 
 
@@ -90,77 +90,144 @@ const movies = {
             "posterUrl": "https://m.media-amazon.com/images/M/MV5BODFhZjAwNjEtZDFjNi00ZTEyLThkNzUtMjZmOWM2YjQwODFmXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_FMjpg_UX1000_.jpg",
         },
         {
-            id: 2,
+            id: 1,
             "title": "The Third Man",
             "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjMwNzMzMTQ0Ml5BMl5BanBnXkFtZTgwNjExMzUwNjE@._V1_SX300.jpg"
         },
         {
-            id: 3,
+            id: 2,
             "title": "Black Swan",
             "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzY2NzI4OTE5MF5BMl5BanBnXkFtZTcwMjMyNDY4Mw@@._V1_SX300.jpg"
         },
         {
-            id: 4,
-            "title": "The Silence of the Lambs",
+            id: 3,
+            "title": "The Silence",
             "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ2NzkzMDI4OF5BMl5BanBnXkFtZTcwMDA0NzE1NA@@._V1_SX300.jpg"
         },
         {
-            id: 5,
+            id: 4,
             "title": "Midnight Express",
             "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQyMDA5MzkyOF5BMl5BanBnXkFtZTgwOTYwNTcxMTE@._V1_SX300.jpg"
         },
         {
-            id: 6,
+            id: 5,
             "title": "Morbius",
-            "posterUrl": "https://pict.sindonews.net/dyn/360/pena/news/2022/03/30/700/727761/review-film-morbius-vampir-menyeramkan-dengan-cgi-payah-nsn.jpg",
+            "posterUrl": "https://www.themoviedb.org/t/p/original/6JjfSchsU6daXk2AKX8EEBjO3Fm.jpg",
         },
         {
-            id: 7,
+            id: 6,
             "title": "The Invisible Man",
             "posterUrl": "https://upload.wikimedia.org/wikipedia/en/3/3a/The_Invisible_Man_%282020_film%29_-_release_poster.jpg",
         },
         {
-            id: 8,
+            id: 7,
             "title": "Shirley",
             "posterUrl": "https://upload.wikimedia.org/wikipedia/en/3/30/Shirley_poster.jpeg",
         },
         {
-            id: 9,
+            id: 8,
             "title": "Us",
             "posterUrl": "https://flxt.tmsimg.com/assets/p15955710_p_v8_aa.jpg",
         },
         {
-            id: 10,
+            id: 9,
             "title": "Martin Eden",
-            "posterUrl": "https://m.media-amazon.com/images/M/MV5BNTgzYTM5MjYtZjk2ZC00MTUxLWE1NTktYmVkZmIwNTZiMTNkXkEyXkFqcGdeQXVyMTA3MzQ4MTcw._V1_.jpg",
+            "posterUrl": "https://kbimages1-a.akamaihd.net/0bdabcc9-d721-408d-bbc3-2b455381738f/1200/1200/False/martin-eden-71.jpg",
         },
         {
-            id: 11,
+            id: 10,
             "title": "Truth or Dare",
-            "posterUrl": "https://montasefilm.com/wp-content/uploads/2018/04/1600x1181_8a5aabad5b.jpg",
+            "posterUrl": "https://m.media-amazon.com/images/M/MV5BYWYwYTM0NWQtNDQwYi00Y2QyLWJkODYtY2ZiMGRmYjAxMThmXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_.jpg",
         },
         {
             id: 12,
             "title": "A Quit Place",
-            "posterUrl": "https://wallpapersmug.com/download/1600x900/a00b73/a-quiet-place-part-2-2020.jpg",
+            "posterUrl": "https://m.media-amazon.com/images/I/A1zV1fxtMEL._SL1500_.jpg",
         },
         {
             id: 13,
             "title": "Fifty Shades Freed",
-            "posterUrl": "https://lh3.googleusercontent.com/uJ-GOUpYpBsdYv0q3XR5z2qE9xEvpgP6jyhpQ1Sz1MS4HKGN83egIT9Y0tGiFEH4Axt5AW6luTXIUj4cyjJBuJjPjQws2mUD9rikBudOX_fofiKCDbt7k0lZ1N9TgYaqsqGY07jju8IUuZgWRyx_NC5hKp7AsuTU_bK6HETCCFpqFdNRUCLbeCTa1HVUgTga3pczD-7qT3ZHQztQnK4PbssYuG-ucipkt6om4iUlTJTM1nH8YeSGoNIlPsyhtxIqpCmYVeRQdYrAbR3Aa4H3GodX1SgfcE7pXqACJJrDQNqgOHOb_bqp_9tqlZ3XFT0jm7b7lYskE5EwDYndVdVuc7oSknAXPEAtaEo-cYORmqPoP_Nb7odrnAokW3vwvxyKNXxz2su2UnljhZkO-JObQG2V9M8rfpp5m0d-EuKRJwy9SS9V5U0bcCMGfE167G1oAthC04SLIcJnUT59dB-y7tMlxqr0lZeZrgo-7rMd1gtlEbutAV5aiucxO8HhA4f2gwX5ZgHE30tIn64p07cR9u58CrBBKQQ9vwYDKmj9UUhVSEVmfKaNm_ZfWhM32uuxWwTmODtTW8Z3sUNtpiOrWJw7GczCEeNfiVNj_R2LFeCF7wfas4GeAgu6R4WUPOk7HJU9OfP_AeZVTKWA-EGSe2MakrEtXaA_B0YVK0YewsLU0ANYl8os_OXmnbT7RBqQDIgDL2vvy5HcCQdYYQ=w1200-h542-no",
+            "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTI2NGFmZGEtYWJiOC00NzhhLTk4N2ItNzQ1YjYxZGU5M2U1XkEyXkFqcGdeQXVyODQxMTI4MjM@._V1_.jpg",
         },
         {
             id: 14,
             "title": "Hereditary",
-            "posterUrl": "https://images2.alphacoders.com/112/1122556.jpg",
+            "posterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg4eDEAeeyiJ5LPFtATn1-E5WzCYKsbboQnrx5o5VKf-W98Zilzst6vfImHVZvtdAXR34&usqp=CAU",
         },
         {
             id: 15,
             "title": "Maze Runner: The Death Cure",
-            "posterUrl": "https://cdn.wallpapersafari.com/98/16/DNcgvk.jpg",
+            "posterUrl": "https://i1.wp.com/teaser-trailer.com/wp-content/uploads/The-Maze-Runner-3-The-Death-Cure.jpg?ssl=1",
+        },
+    ],
+    Comedy: [
+
+        {
+            id: 0,
+            "title": "The Campaign",
+            "posterUrl": "https://picfiles.alphacoders.com/355/thumb-355144.jpg",
+        },
+        {
+            id: 1,
+            "title": "Turning Red",
+            "posterUrl": "https://www.whatspaper.com/wp-content/uploads/2022/04/hd-turning-red-wallpaper-whatspaper-5.jpg",
+        },
+        {
+            id: 2,
+            "title": "The Lost City",
+            "posterUrl": "https://7wallpapers.net/wp-content/uploads/The-Lost-City-2-1619x2400.jpg",
+        },
+        {
+            id: 3,
+            "title": "The Bad Guys",
+            "posterUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/81e8eaf4-42df-45fe-8eb9-f7596ba98246/df0ekt5-005cce1b-568a-4f4e-bdc3-a4879be52c8a.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzgxZThlYWY0LTQyZGYtNDVmZS04ZWI5LWY3NTk2YmE5ODI0NlwvZGYwZWt0NS0wMDVjY2UxYi01NjhhLTRmNGUtYmRjMy1hNDg3OWJlNTJjOGEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.U-5Y35kKoLSzjlhoUWLpBQOi2fZtcA9erkGynkC-VlI",
+        },
+        {
+            id: 4,
+            "title": "Jackass Forever",
+            "posterUrl": "https://wallpapercave.com/wp/wp10569294.jpg",
+        },
+        {
+            id: 5,
+            "title": "Legally Blonde",
+            "posterUrl": "https://picfiles.alphacoders.com/106/106452.jpg",
+        },
+
+    ],
+    Drama: [
+        {
+            id: 0,
+            "title": "Hitman: Agent Jun",
+            "posterUrl": "https://img.wallpapersafari.com/tablet/768/1024/27/1/kBcN8t.jpg",
+        },
+        {
+            id: 1,
+            "title": "Deliver Us From Evil",
+            "posterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO9tgxD8S8fpYr5n3eWcsVzyjE6SqAvBVWVQ&usqp=CAU",
+        },
+        {
+            id: 2,
+            "title": "Time To Hunt",
+            "posterUrl": "https://m.media-amazon.com/images/M/MV5BNTBkN2RlYjEtNzgxOC00MDc1LTg0MTEtZTI1ZWQ1MjhlZjYzXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_.jpg",
+        },
+        {
+            id: 3,
+            "title": "Youth of May",
+            "posterUrl": "https://i.pinimg.com/originals/75/17/10/751710f4a95fda0492ececdc39a66a75.jpg",
+        },
+        {
+            id: 4,
+            "title": "Life",
+            "posterUrl": "https://asianwiki.com/images/0/0d/Private_Lives-P1.jpg",
+        },
+        {
+            id: 5,
+            "title": "The Notebook",
+            "posterUrl": "http://nicholassparks.com/wp-content/uploads/2013/07/200406-the-notebook.jpeg?w=640",
         },
     ]
 }
+
 
 
 // menampilkan list genre berdasarkan object movies
