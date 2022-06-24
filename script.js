@@ -62,7 +62,7 @@ const movies = {
         },
         {
             id: 12,
-            "title": "Deadpoll 2",
+            "title": "Deadpool 2",
             "posterUrl": "https://wallpapersmug.com/download/1600x900/4d9385/deadpool-2-movie-poster-minimal.jpg",
         },
         {
@@ -189,7 +189,7 @@ function randomize(maxNumber, historyIndex) {
 //filter movie berdasarkan genre yang dipilih dan menambahkan element card movie yang sudah difilter
 let selectedGenre = ''
 function filterMovie(event, genre) {
-    document.getElementById("genre-name").innerHTML = genre;
+    document.getElementById("genre-name").innerText = genre;
     selectedGenre = genre
     let cardsElement = document.getElementById("cards")
     let card = ''
@@ -201,7 +201,7 @@ function filterMovie(event, genre) {
         card += `
             <div class="card">
               <div class="profile">
-                <img src="${movies[selectedGenre][randomNumber].posterUrl}">
+                <img src="${movies[selectedGenre][randomNumber].posterUrl}" class='poster'>
                 <p>${movies[selectedGenre][randomNumber].title}</p>
                 <button name = 'movie-button' id='${movieId}' value='watch' onclick='pickMovie(this,${movieId})'>Watch</button>
               </div>
@@ -224,7 +224,7 @@ function pickMovie(evt, movieId) {
     const pickedMovie = `
             <div class="card" id='card-${movie.id}'>
                 <div class="profile">
-                  <img src="${movie.posterUrl}" hceight="150"/>
+                  <img src="${movie.posterUrl}" class='poster'/>
                   <p>${movie.title}</p>
                   <button name='delete-movie' id='delete-${movie.id}' value='delete' onclick='deleteMovie(this, ${movie.id})'  >delete</button>
                 </div>
